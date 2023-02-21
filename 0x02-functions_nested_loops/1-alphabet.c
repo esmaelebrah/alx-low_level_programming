@@ -1,4 +1,4 @@
-#include <main.c>
+#include <main.h>
 /**
  * ptint the alphabet
  *  in lowercase, followed by a new line.
@@ -9,7 +9,8 @@ int main()
 	ch = 'a'
 	while (ch <= 'z')
 	{
-		_putchar(ch);
+	_putchar(ch);
+	ch++;
 	}
 	_putchar('\n');
 }
