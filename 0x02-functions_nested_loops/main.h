@@ -1,8 +1,5 @@
-void print_times_table(int n);
-<<<<<<< HEAD
-=======
-int _putchar(char c);
->>>>>>> c4c8f6b1264a862a3edbc4cbcf0dad347efdf69c
+#ifndef main_h
+#define main_h
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
