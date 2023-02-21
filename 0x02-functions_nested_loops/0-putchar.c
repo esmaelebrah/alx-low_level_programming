@@ -1,23 +1,20 @@
 #include "main.h"
-
-
 /**
  * main - Entry point
- *
- * Return: nothing, return void
+ * Description: prints 'Holberton \n'
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+char str[] = "_putchar\n";
+int i = 0;
 
+while (str[i] != '\0')
+	{
+	char c = str[i];
+
+	_putchar(c);
+	i++;
+	}
 return (0);
 }
