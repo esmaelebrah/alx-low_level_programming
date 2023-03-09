@@ -20,4 +20,3 @@ int prime2(int a, int b)
  * is_prime_number - checks if a number is prime
  * @n: Number Integer
  *
-
