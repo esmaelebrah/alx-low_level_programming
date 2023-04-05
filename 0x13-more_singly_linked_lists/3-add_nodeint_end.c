@@ -12,9 +12,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	listint_t *new_nod;
 	new_nod = (struct listint_s *) malloc(sizeof(struct listint_s));
 	if (new_nod == NULL)
-	{
 		return(NULL);
-	}
+	
 
 	new_nod->n = n;
 
