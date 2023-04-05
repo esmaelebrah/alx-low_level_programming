@@ -1,24 +1,17 @@
 #include "lists.h"
 
 /**
- * free_listint2 - delete the list in listint_t
- * @head: ponter pointa to list liatint_t
- *
- * return: none
+ * free_listint - frees a linked list
+ * @head: listint_t list to be freed
  */
-void free_listint2(listint_t **head)
+void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
-	if (temp ==NULL)
-		return (-1);
-
-	temp = *head;
-
-	while (temp != NULL)
+	while (head)
 	{
-		temp = temp->next;
-		free(*head);
-		*head = temp;
+		temp = head->next;
+		free(head);
+		head = temp;
 	}
 }
