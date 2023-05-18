@@ -15,7 +15,7 @@ while(h)
 {
 printf("%d\n", h->n);
 h = h->next;
-s += 1;
+s++;
 }
 
 return (s);
